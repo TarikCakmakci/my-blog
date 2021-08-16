@@ -1,17 +1,57 @@
 .top {
     width: 100%;
-    height: 50px;
-    background-color:gainsboro;
+    height: 100px;
+    background-color:white;
     position:sticky;
     top: 0;
     display:flex;
-    color:blue;
     align-items: center;
     font-family: 'Poiret One', cursive;
-    font-size: 45px;
 }
-.btn {
-    background-color: green;
-    size:100px;
-    font-size:100px;
+
+.topLeft,.topRight{
+    flex:3;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.topCenter {
+    flex:6;
+}
+.topList{
+    display:flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.topListItem{
+    margin-right:25px;
+    font-size:45px;
+    font-weight:300px;
+    cursor:pointer;
+}
+.topIcon{
+    font-size: 50px;
+    margin-right: 70px;
+    cursor:pointer;
+    color:red;
+}
+.topSearchIcon {
+    font-size:35px;
+    cursor:pointer;
+    margin-left:10px;
+}
+.topImg {
+    width:60px;
+    height:60px;
+    border-radius:70%;
+    object-fit:cover;
+    background-color:gray;
+}
+.signItem{
+    margin-right:25px;
+    font-size:45px;
+    font-weight:300px;
+    cursor:pointer;
 }
