@@ -6,7 +6,7 @@
     top: 0;
     display:flex;
     align-items: center;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Lora', serif;
 }
 
 .topLeft,.topRight{
@@ -30,8 +30,6 @@
     font-size:25px;
     font-weight:300px;
     cursor:pointer;
-    font-style: bold;
-    
 }
 .topIcon{
     font-size: 40px;
