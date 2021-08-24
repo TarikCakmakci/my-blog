@@ -30,6 +30,7 @@
     font-size:25px;
     font-weight:300px;
     cursor:pointer;
+    font-style: bold;
     
 }
 .topIcon{
@@ -42,7 +43,6 @@
     font-size:18px;
     color:gray;
     cursor:pointer;
-    
 }
 .topSearchIcon {
     font-size:25px;
