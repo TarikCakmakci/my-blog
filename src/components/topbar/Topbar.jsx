@@ -11,7 +11,10 @@ export default function Topbar() {
                 <ul className="topList">
                     <li className="topListItem">Anasayfa</li>
                     <li className="topListItem">Hakkımda</li>
-                    <li className="topListItem">İletişim</li>
+                    <li className="topListItem">İletişim</li> 
+                    <li className="topListItem">Paylaşmak istersen?</li>
+                    <li className="topListItem">Çıkış Yap</li>
+                    
                 </ul>
             </div>
             <div className="topRight">
