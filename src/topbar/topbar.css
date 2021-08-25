@@ -6,7 +6,8 @@
     top: 0;
     display:flex;
     align-items: center;
-    font-family: 'Lora', serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 999;
 }
 
 .topLeft,.topRight{

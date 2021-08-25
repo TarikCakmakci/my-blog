@@ -7,7 +7,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#9ed2ff;
+    background-color: rgba(241, 237, 237, 0.959);
+    height: 50%;
 }
 .sidebarItem{
     display:flex;
