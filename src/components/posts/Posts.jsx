@@ -1,4 +1,4 @@
-import Post from "../post/Post"
+import Post from "../../components/post/Post"
 import "./posts.css"
 
 export default function posts() {
@@ -10,7 +10,8 @@ export default function posts() {
             <Post />
             <Post />
             <Post />
-            
+            <Post />
+            <Post />
         </div>
     )
 }
