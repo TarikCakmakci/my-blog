@@ -1,7 +1,8 @@
 import "./topbar.css"
-
+import kai from '../../components/images/kai.jpg'
 export default function Topbar() {
     return (
+        
         <div className="top">
             <div className="topLeft">
                 <i className="topIcon fab fa-linkedin"></i>
@@ -18,7 +19,8 @@ export default function Topbar() {
                 </ul>
             </div>
             <div className="topRight">
-                <img className="topImg" src="https://img.icons8.com/ios-glyphs/30/000000/user-male--v2.png"alt=""/>
+            
+                <img className="topImg" src={kai}alt=""/>
                 <ul className="signItem">Giriş</ul>
                 <i className="topSearchIcon fas fa-search"></i>
             </div>
