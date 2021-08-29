@@ -1,5 +1,6 @@
 import "./settings.css"
 import Sidebar from "../../components/sidebar/Sidebar"
+import kai from '../../components/images/kai.jpg'
 export default function Settings() {
     return (
         <div className="settings">
@@ -11,15 +12,22 @@ export default function Settings() {
                 <form className="settingsForm">
                     <label>Profil Fotoğrafı</label>
                     <div className="settingsPP">
-                        <img className="settingsPPImg" 
-                        src="https://img.icons8.com/ios-glyphs/30/000000/user-male--v2.png"
+                        <img className="settingsPP" 
+                        src={kai}
                         alt=""/>
                         <label htmlFor="fileInput">
-                            
+                            <i className="settingsPPIcon fas fa-user-circle" title="Değiştirmek için tıkla"> </i>
                         </label>
+                        <input type="file" id="fileInput" style={{display:"none"}} />
                     </div>
+                <label>Kullanıcı Adı</label>
+                    <input type="text" placeholder="Kai"/>
+                <label>E-Mail</label>
+                    <input type="email" placeholder="kai@gmail.com"/>
+                <label>Şifre</label>
+                    <input type="password"/>
+                <button className="settingsSubmit">Güncelle</button>
                 </form>
-        
             </div>
 
             <Sidebar/>
