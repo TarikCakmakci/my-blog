@@ -1,0 +1,53 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(255,255,255,0.2),
+        rgba(255,255,255,0.3),
+        rgba(255,255,255,0.4),
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.6),
+        rgba(255,255,255,0.7),
+        rgba(255,255,255,0.01)
+    ), url("https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+}
+.registerTitle {
+    font-size: 50px;
+}
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm >label{
+    font-size:25px;
+    margin:10px 0;
+}
+.registerForm>input{
+    border-radius: 70px;
+    height: 25px;
+}
+.registerInput {
+    padding:10px;
+    background-color: white;
+    border:none;
+}
+.registerButton {
+    margin-top:20px;
+    height: 40px;
+    cursor: pointer;
+    background: linear-gradient(60deg, #25ff5f, #3acb34, #5daa55);
+    border:none;
+    color:white;
+    border-radius: 70px;
+    align-items: center;
+    text-align: center;
+}
+
+
