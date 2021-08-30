@@ -15,7 +15,6 @@ export default function Topbar() {
                     <li className="topListItem">İletişim</li> 
                     <li className="topListItem">Paylaşmak istersen?</li>
                     <li className="topListItem">Çıkış Yap</li>
-                    
                 </ul>
             </div>
             <div className="topRight">

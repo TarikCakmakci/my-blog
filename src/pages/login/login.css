@@ -1,0 +1,7 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex:9;
+    flex-direction: column;
+    color:white;
+}
