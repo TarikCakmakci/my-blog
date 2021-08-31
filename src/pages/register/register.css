@@ -49,6 +49,7 @@
     background:linear-gradient(140deg, rgb(219, 98, 65) 0%, rgb(229, 91, 141) 100%);
     color:white;
     cursor:pointer;
+    font-weight: 700;
 }
 .registerLoginButton{
     margin-top:7px;
