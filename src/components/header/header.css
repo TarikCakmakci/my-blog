@@ -1,5 +1,7 @@
 .header{
     margin-top:60px;
+    padding:10px;
+    margin-bottom:30px;
 }
 .headerTitles {
     display: flex;
@@ -8,19 +10,16 @@
     font-family: 'Lora', serif;
     color:black;
 }
-.headerTitleSm{
-    position: absolute;
-    top:8%;
-    font-size:25px;
-}
 .headerTitleLg{
+    margin-top:-60px;
     position: absolute;
     top:10%;
-    font-size:70px;
+    font-size:80px;
 }
 .headerImg {
     width: 100%;
-    height: 60px;
-    margin-top:80px;
+    height: 800px;
+    margin-top:-35px;
+    border-radius: 70px;
     object-fit: cover;
 }

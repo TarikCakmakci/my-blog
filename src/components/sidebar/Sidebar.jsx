@@ -11,17 +11,17 @@ export default function sidebar() {
         <div className="sidebarItem">
         <span className="sidebarTitle">KATEGORİLER</span>
         <ul className="sidebarList">
-            <li className="sidebarListItem">Hayat</li>
-            <li className="sidebarListItem">Müzik</li>
-            <li className="sidebarListItem">Giyim</li>
+            <li className="sidebarListItem">Web Programlama</li>
+            <li className="sidebarListItem">Mobil Programlama</li>
+            <li className="sidebarListItem">Oyun Programlama</li>
             <li className="sidebarListItem">Spor</li>
             <li className="sidebarListItem">Teknoloji</li>
             <li className="sidebarListItem">Sinema</li>
-            <li className="sidebarListItem">Ahmet</li>
+
          </ul>
         </div>
         <div className="sidebarItem">
-             <span className="sidebarTitle">FOLLOW ME</span>
+             <span className="sidebarTitle">X</span>
              <div className="sidebarSocial">
                 <i className="sidebarIcon fab fa-linkedin"></i>
                 <i className="sidebarIcon fab fa-github"></i>

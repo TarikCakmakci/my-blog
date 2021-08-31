@@ -3,7 +3,7 @@ import "./post.css"
 export default function Post() {
     return (
         <div className="post">
-            <img className="postImg" src="https://img-s2.onedio.com/id-55c10ea31337126229e0759d/rev-0/w-635/f-jpg-webp/s-e3f02215dd768e1c5be127f97708528bfd94da42.webp" alt=""/>
+            <img className="postImg" src="https://images.pexels.com/photos/1144694/pexels-photo-1144694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
 
             <div className="postInfo">
                 <div className="postCats">

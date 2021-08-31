@@ -39,7 +39,19 @@
     border:none;
 }
 .registerButton {
+   
     margin-top:20px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    border:none;
+    border-radius: 70px;
+    background:linear-gradient(140deg, rgb(219, 98, 65) 0%, rgb(229, 91, 141) 100%);
+    color:white;
+    cursor:pointer;
+}
+.registerLoginButton{
+    margin-top:7px;
     height: 40px;
     cursor: pointer;
     background: linear-gradient(60deg, #25ff5f, #3acb34, #5daa55);
@@ -48,6 +60,7 @@
     border-radius: 70px;
     align-items: center;
     text-align: center;
+    font-weight: 700;
 }
 
 

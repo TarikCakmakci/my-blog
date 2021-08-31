@@ -6,9 +6,9 @@
 }
 .postImg {
     width:100%;
-    height: 200px;
+    height: 400px;
     object-fit: cover;
-    border-radius: 7px;
+    border-radius: 70px;
     
 }
 .postInfo {
