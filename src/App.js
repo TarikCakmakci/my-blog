@@ -8,6 +8,8 @@ import Single from "./pages/single/Single";
 
 import {
   BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+import Footer from "./components/footer/Footer";
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
   
   <Router>
         <Topbar />
+        
     <Switch>
         <Route exact path="/">
           <Home />
@@ -29,6 +32,7 @@ function App() {
           <Single />
         </Route>
     </Switch>
+    <Footer/>
   </Router>
      
   );
