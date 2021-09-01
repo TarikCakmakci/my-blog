@@ -23,6 +23,7 @@ function App() {
     <Switch>
         <Route exact path="/">
           <Home />
+          <Footer/>
         </Route>
         <Route path="/register">{user ? <Home /> :<Register />}</Route>
         <Route path="/login"> {user ? <Home /> :<Login />}</Route>
@@ -32,7 +33,10 @@ function App() {
           <Single />
         </Route>
     </Switch>
-    <Footer/>
+    
+    
+   
+    
   </Router>
      
   );

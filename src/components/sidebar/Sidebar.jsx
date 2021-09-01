@@ -23,8 +23,12 @@ export default function sidebar() {
         <div className="sidebarItem">
              <span className="sidebarTitle">X</span>
              <div className="sidebarSocial">
-                <i className="sidebarIcon fab fa-linkedin"></i>
-                <i className="sidebarIcon fab fa-github"></i>
+             <a href="https://www.github.com/tarikcakmakci">
+                    <i className="sidebarIcon fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/tarikcakmakci/">
+                    <i className="sidebarIcon fab fa-linkedin"></i>
+                </a>
              </div>
         </div>
         </div>

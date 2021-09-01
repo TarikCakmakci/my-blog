@@ -7,8 +7,14 @@ export default function Topbar() {
         
         <div className="top">
             <div className="topLeft">
-                <i className="topIcon fab fa-linkedin"></i>
-                <i className="topIcon fab fa-github"></i>
+                <a href="https://www.github.com/tarikcakmakci">
+                    <i className="topIcon fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/tarikcakmakci/">
+                    <i className="topIcon fab fa-linkedin"></i>
+                </a>
+               
+                
             </div>
             <div className="topCenter">
                 <ul className="topList">

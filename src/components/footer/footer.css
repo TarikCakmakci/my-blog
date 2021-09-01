@@ -1,11 +1,19 @@
-.footer{
-    margin-top: 1rem;
-    padding: 1rem;
-    background-color: black;
-    color:white;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    position: fixed;
+.main-footer{
+   color:white;
+   background-color: black;
+   padding-top:0.3em;
+   position: relative;
+   bottom: 0;
+   width:100%;
+   text-align: center;
+   justify-content: center;
   }
+ .col>p{
+     font-size: 20px;
+     padding: 8px;
+ }
+.footerIcon{
+    margin-right:0px;
+    margin-left:20px;
+    cursor:pointer;
+}
