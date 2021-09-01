@@ -1,6 +1,7 @@
 .sidebar{
     flex:3;
-    margin:20px;
+    margin:10px;
+    margin-top:0px;
     padding-bottom: 30px;
     font-family: 'Lora', serif;
     border-radius: 10px;
@@ -9,28 +10,34 @@
     align-items: center;
     background-color: rgba(241, 237, 237, 0.959);
     height: 50%;
+    
 }
 .sidebarItem{
     display:flex;
     flex-direction: column;
     align-items: center;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .sidebarTitle{
     margin:5px;
     padding:5px;
     width:80%;
-    border-top:2px dashed red;
-    border-bottom:2px dashed red;
-    font-size:12px;
+    border-top:2px dashed orange;
+    border-bottom:2px dashed orange;
+    font-size:15px;
     color:#222;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 25px;
     text-align: center;
-    
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
 }
 .sidebarItem > p {
     padding:30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
 }
 .sidebarIcon{
     color:red;
@@ -39,6 +46,7 @@
 .sidebarList {
     list-style: none;
     margin-bottom:30px;
+    font-family: 'Raleway', sans-serif;
 
 }
 .sidebarListItem {
@@ -46,6 +54,7 @@
     width: 50%;
     margin-top: 15px;
     cursor: pointer;
+    font-family: 'Raleway', sans-serif;
 }
 .sidebarSocial {
     margin-top:5px;
@@ -59,5 +68,4 @@
     margin-left: 35px;
     margin-right: 35px;
     cursor: pointer;
-    
 }

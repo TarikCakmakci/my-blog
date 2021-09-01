@@ -7,8 +7,7 @@ export default function Post() {
 
             <div className="postInfo">
                 <div className="postCats">
-                    <span className="postCat">Müzik</span>
-                    <span className="postCat">Yaşam</span>
+                    <span className="postCat">ABOUT LOREM W</span>
                 </div>
             <span className="postTitle">
                 Lorem, ipsum dolor sit amet
