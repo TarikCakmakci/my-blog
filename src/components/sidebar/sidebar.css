@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(241, 237, 237, 0.959);
+    background-color:lightsalmon;
     height: 50%;
     
 }
@@ -24,8 +24,8 @@
     margin:5px;
     padding:5px;
     width:80%;
-    border-top:2px dashed orange;
-    border-bottom:2px dashed orange;
+    border-top:3px dashed white;
+    border-bottom:3px dashed white;
     font-size:15px;
     color:#222;
     font-weight: 800;
@@ -40,7 +40,7 @@
     font-size: 23px;
 }
 .sidebarIcon{
-    color:red;
+    color:white;
     margin:5px;
 }
 .sidebarList {
@@ -48,6 +48,10 @@
     margin-bottom:30px;
     font-family: 'Raleway', sans-serif;
 
+}
+.sidebarImg {
+    margin-top:10px;
+    border-radius: 70px;
 }
 .sidebarListItem {
     display: inline-block;

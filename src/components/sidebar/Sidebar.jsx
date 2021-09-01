@@ -21,7 +21,7 @@ export default function sidebar() {
          </ul>
         </div>
         <div className="sidebarItem">
-             <span className="sidebarTitle">X</span>
+           
              <div className="sidebarSocial">
              <a href="https://www.github.com/tarikcakmakci">
                     <i className="sidebarIcon fab fa-github"></i>

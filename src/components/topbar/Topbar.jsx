@@ -22,7 +22,7 @@ export default function Topbar() {
                      <Link to="/" className="link" >ANASAYFA</Link>
                     </li>
                     <li className="topListItem">
-                    <Link to="/" className="link" >HAKKIMDA</Link>
+                    <Link to="/about" className="link" >HAKKIMDA</Link>
                     </li>
                     <li className="topListItem">
                     <Link to="/" className="link" >İLETİŞİM</Link>
