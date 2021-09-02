@@ -10,6 +10,7 @@ import {
   BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import Footer from "./components/footer/Footer";
 import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/write"> {user ?<Write />:<Register/>}</Route>
         <Route path="/settings"> {user ?<Settings />:<Register/>}</Route>
         <Route path="/about"> <About/></Route>
+        <Route path="/contact"> <Contact/></Route>
         <Route path="/post/:postId">
           <Single />
         </Route>

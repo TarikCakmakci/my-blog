@@ -1,4 +1,4 @@
-.login {
+.contact {
     height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;
@@ -6,34 +6,29 @@
     font-family: 'Raleway', sans-serif;
     align-items: center;
     justify-content: center;
-    background:linear-gradient(
-        rgba(255,255,255,5),
-        rgba(255,255,255,0.000001)
-    ), url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
-    background-size: cover;
 }
-.loginTitle {
+.contactTitle {
     font-size: 50px;
 }
-.loginForm {
+.contactForm {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
-.loginForm >label{
+.contactForm >label{
     font-size:25px;
     margin:10px 0;
 }
-.loginForm>input{
+.contactForm>input{
     border-radius: 70px;
     height: 25px;
 }
-.loginInput {
+.contactInput {
     padding:10px;
     background-color: white;
     border:none;
 }
-.loginButton {
+.contactButton {
     margin-top:20px;
     height: 40px;
     cursor: pointer;
@@ -45,16 +40,3 @@
     text-align: center;
     font-weight: 700;
 }
-.loginRegisterButton {
-    margin-top:7px;
-    height: 40px;
-    align-items: center;
-    text-align: center;
-    border:none;
-    border-radius: 70px;
-    background:linear-gradient(140deg, rgb(219, 98, 65) 0%, rgb(229, 91, 141) 100%);
-    color:white;
-    cursor:pointer;
-    font-weight: 700;
-}
-
