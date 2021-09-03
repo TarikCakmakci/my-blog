@@ -60,6 +60,7 @@
     height:40px;
     border-radius:70%;
     object-fit:cover;
+    cursor:pointer;
 }
 .signItem{
     margin-right:25px;
@@ -70,7 +71,7 @@
 .homeIcon{
     margin-right:5px;
     cursor:pointer;
-    color:red;
+    color:black;
 }
 .aboutIcon{
     margin-right: 5px;
@@ -86,4 +87,9 @@
     margin-right: 5px;
     cursor:pointer;
     color:steelblue;
+}
+.logoutIcon {
+    margin-right: 5px;
+    cursor:pointer;
+    color:red;
 }

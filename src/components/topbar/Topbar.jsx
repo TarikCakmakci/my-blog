@@ -43,7 +43,8 @@ export default function Topbar() {
                     </li>
 
                     <li className="topListItem">
-                        {user && "ÇIKIŞ YAP"}
+                    
+                         {user && "ÇIKIŞ YAP" && <i class="logoutIcon fas fa-sign-out-alt"></i>}
                     </li>
                 </ul>
             </div>
@@ -61,15 +62,14 @@ export default function Topbar() {
                         <li className="topListItem">
                         <Link to="/register" className="link">KAYIT</Link>
                         </li>
+                        <i className="topSearchIcon fas fa-search">
+                             <p>ARAMA YAP
+                             </p>
+                        </i>
                     </ul>
                 )
             }
-            <div className="search">
-            <i className="topSearchIcon fas fa-search">
-           
-                <p>ARAMA YAP</p>
-            </i>
-            </div>
+            
            
             </div>
         </div>

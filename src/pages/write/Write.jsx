@@ -4,7 +4,7 @@ export default function Write() {
     return (
         <div className="write">
             <img 
-                className="writeImg" src="https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+                className="writeImg" src="https://images.pexels.com/photos/6356306/pexels-photo-6356306.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="" />
             <form className="writeForm">
                 <div className="writeFormGroup">
                     <label htmlFor="fileInput">
