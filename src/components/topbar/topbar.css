@@ -38,22 +38,27 @@
     cursor:pointer;
     color:red;
 }
-.topSearchIcon{
-    font-size:18px;
-    color:gray;
-    cursor:pointer;
-}
+
 .topSearchIcon {
-    font-size:25px;
+    font-size:31px;
     cursor:pointer;
-    margin-left:10px;
+    margin-left:70px;
+    display: flex;
+    justify-content: center;
+}
+.topSearchIcon>p{
+    font-size: 31px;
+    font-family: 'Raleway', sans-serif;
+    margin-left:15px;
+    font-size:25px;
+    font-weight:300px;
+    margin-bottom:-40px;
 }
 .topImg {
     width:40px;
     height:40px;
     border-radius:70%;
     object-fit:cover;
-   
 }
 .signItem{
     margin-right:25px;

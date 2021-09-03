@@ -6,9 +6,15 @@
     font-family: 'Raleway', sans-serif;
     align-items: center;
     justify-content: center;
+    object-fit: cover;
+    background:linear-gradient(
+        rgba(255,255,255,5),
+        rgba(255,255,255,0.000001)
+    ), url("https://images.pexels.com/photos/3727256/pexels-photo-3727256.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260");
 }
 .contactTitle {
     font-size: 50px;
+    color:orangered;
 }
 .contactForm {
     margin-top: 20px;
@@ -18,6 +24,8 @@
 .contactForm >label{
     font-size:25px;
     margin:10px 0;
+    color:red;
+    font-weight: 700;
 }
 .contactForm>input{
     border-radius: 70px;
@@ -39,4 +47,15 @@
     align-items: center;
     text-align: center;
     font-weight: 700;
+}
+.contactInputMsg {
+    height: 40px;
+    width: 400px;
+    border-radius: 70px;
+    border: none;
+    padding:10px;
+}
+.contactForm > .contactInputMsg {
+    height: 50px;
+    width: 300px;
 }

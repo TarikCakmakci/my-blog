@@ -2,7 +2,7 @@ import "./topbar.css"
 import kai from '../../components/images/kai.jpg'
 import { Link } from "react-router-dom";
 export default function Topbar() {
-    const user = false;
+    const user = true;
     return (
         
         <div className="top">
@@ -51,7 +51,12 @@ export default function Topbar() {
                     </ul>
                 )
             }
-             <i className="topSearchIcon fas fa-search"></i>
+            <div className="search">
+            <i className="topSearchIcon fas fa-search">
+                <p>ARAMA YAP</p>
+            </i>
+            </div>
+           
             </div>
         </div>
    
