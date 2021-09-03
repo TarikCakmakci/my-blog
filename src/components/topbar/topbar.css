@@ -66,3 +66,23 @@
     font-weight:300px;
     cursor:pointer;
 }
+.homeIcon{
+    margin-right:5px;
+    cursor:pointer;
+    color:blue;
+}
+.aboutIcon{
+    margin-right: 5px;
+    cursor:pointer;
+    color:orange;
+}
+.connectIcon{
+    margin-right: 5px;
+    cursor:pointer;
+    color:rebeccapurple;
+}
+.writeIconn {
+    margin-right: 5px;
+    cursor:pointer;
+    color:steelblue;
+}

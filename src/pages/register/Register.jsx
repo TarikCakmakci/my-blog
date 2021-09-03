@@ -5,7 +5,7 @@ import "./register.css"
 export default function Register() {
     return (
         <div className="register">
-            <span className="registerTitle">Kayıt Ol</span>
+            <span className="registerTitle">KAYIT OL</span>
         <form className="registerForm">
             <label>Kullanıcı Adı</label>
                 <input type="text" className="registerInput" placeholder="Kullanıcı adınızı giriniz..."></input>
@@ -14,9 +14,9 @@ export default function Register() {
             <label>Şifre</label>
                 <input type="password" className="registerInput" placeholder="Şifrenizi giriniz..."></input>    
             <button className="registerButton">
-                <Link to="/register" className="link"></Link>Kayıt Ol</button>  
+                <Link to="/register" className="link"></Link>KAYIT OL</button>  
             <button className="registerLoginButton">
-                <Link to="/login" className="link"></Link>Giriş Yap</button>     
+                <Link to="/login" className="link"></Link>GİRİŞ YAP</button>     
         </form>
         
         

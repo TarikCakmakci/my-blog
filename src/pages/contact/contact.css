@@ -14,7 +14,7 @@
 }
 .contactTitle {
     font-size: 50px;
-    color:orangered;
+    
 }
 .contactForm {
     margin-top: 20px;
@@ -24,7 +24,6 @@
 .contactForm >label{
     font-size:25px;
     margin:10px 0;
-    color:red;
     font-weight: 800;
 }
 .contactForm>input{
