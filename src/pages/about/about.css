@@ -4,15 +4,15 @@
     text-align: center;
     justify-content: center;
     display: flex;
-    margin-right: 100px;
+    margin-right: 90px;
     margin-left: 450px;
-    margin-top:10px;
+    margin-top:0 px;
     background-color:lightsalmon;
     border-radius: 20px;
 
 }
 .mainAbout {
-    background-color:black;
+    margin-top:10px;
     height: 879px;
     weight:1000px;
 }

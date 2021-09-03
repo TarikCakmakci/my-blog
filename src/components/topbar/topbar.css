@@ -8,6 +8,7 @@
     align-items: center;
     font-family: 'Raleway', sans-serif;
     z-index: 999;
+    background-color: rgb(230, 224, 224);
 }
 
 .topLeft,.topRight{
@@ -69,7 +70,7 @@
 .homeIcon{
     margin-right:5px;
     cursor:pointer;
-    color:blue;
+    color:red;
 }
 .aboutIcon{
     margin-right: 5px;

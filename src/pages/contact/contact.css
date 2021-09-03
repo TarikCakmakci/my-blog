@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     object-fit: cover;
+    margin-top:0px;
     background:linear-gradient(
         rgba(255,255,255,5),
         rgba(255,255,255,0.000001)

@@ -5,7 +5,7 @@ export default function SinglePost() {
         <div className="singlePost">
             <div className="singlePostWrapper">
                 <img className="singlePostImg"
-                    src="https://img-s2.onedio.com/id-55c10ea31337126229e0759d/rev-0/w-635/f-jpg-webp/s-e3f02215dd768e1c5be127f97708528bfd94da42.webp"
+                    src="https://images.pexels.com/photos/1144694/pexels-photo-1144694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                     alt="" />
                 <h1 className="singlePostTitle">Lorem, ipsum dolor.
                     <div className="singlePostEdit">

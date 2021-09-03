@@ -1,19 +1,21 @@
 .singlePost {
     flex:9;
+    margin-top:-13px;
 }
 .singlePostWrapper {
-    padding:20px;
-    padding-right: 0;
+    padding:10px;
+    padding-right: 10;
 }
 .singlePostImg {
     width: 100%;
-    border-radius: 5px;
+    height: 800px;
+    border-radius: 30px;
     object-fit: cover;
 }
 .singlePostTitle{
     text-align: center;
     margin:10px;
-    font-family: 'Lora',serif;
+    font-family: 'Raleway', sans-serif;
     font-size:40px;
 }
 .singlePostEdit {
@@ -36,12 +38,13 @@
     justify-content: space-between;
     font-size:16px;
     color:#b39656;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .singlePostDesc {
     color:#666;
     font-size:24px;
     line-height: 31px;
+    font-family: 'Raleway', sans-serif;
 }
 .singlePostDesc::first-letter{
     margin-left:25px;

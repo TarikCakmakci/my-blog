@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./post.css"
 
 export default function Post() {
@@ -7,14 +8,20 @@ export default function Post() {
 
             <div className="postInfo">
                 <div className="postCats">
-                    <span className="postCat">ABOUT LOREM W</span>
+                   
+                    <Link to="/post/:postId" className="link" > <span className="postCat">ABOUT LOREM W</span>
+                    </Link>
+                    
                 </div>
-            <span className="postTitle">
+            <Link to="/post/:postId" className="link">
+                <span className="postTitle">
                 Lorem, ipsum dolor sit amet
-            </span>
+                </span>
+            </Link>
             <hr/>
             </div>
             <div className="postDesc">
+            <Link to="/post/:postId" className="link">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
                 autem ipsam sequi perspiciatis fuga sint aut ut explicabo, 
@@ -24,6 +31,7 @@ export default function Post() {
                 voluptatum, est consectetur necessitatibus distinctio molestiae nam doloremque vero.
                 Maiores, voluptas nihil.
             </p>
+            </Link>
             </div>
             <hr/>
             <span className="postDate">1 saat önce</span>
