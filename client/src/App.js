@@ -1,3 +1,4 @@
+import React from 'react';
 import Topbar from "./components/topbar/Topbar";
 import Register from "./pages/register/Register";
 import Home from "./pages/home/Home";

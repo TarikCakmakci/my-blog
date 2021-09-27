@@ -1,6 +1,7 @@
 import "./settings.css"
 import Sidebar from "../../components/sidebar/Sidebar"
 import kai from '../../components/images/kai.jpg'
+import React from 'react';
 export default function Settings() {
     return (
         <div className="settings">
