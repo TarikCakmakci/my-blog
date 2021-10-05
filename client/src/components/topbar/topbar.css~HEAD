@@ -8,8 +8,7 @@
     align-items: center;
     font-family: 'Raleway', sans-serif;
     z-index: 999;
-    margin-top:3px;
-    background-color: white;
+    background-color: rgb(230, 224, 224);
 }
 
 .topLeft,.topRight{
@@ -61,7 +60,6 @@
     height:40px;
     border-radius:70%;
     object-fit:cover;
-    cursor:pointer;
 }
 .signItem{
     margin-right:25px;
@@ -72,7 +70,7 @@
 .homeIcon{
     margin-right:5px;
     cursor:pointer;
-    color:black;
+    color:red;
 }
 .aboutIcon{
     margin-right: 5px;
@@ -88,9 +86,4 @@
     margin-right: 5px;
     cursor:pointer;
     color:steelblue;
-}
-.logoutIcon {
-    margin-right: 5px;
-    cursor:pointer;
-    color:red;
 }

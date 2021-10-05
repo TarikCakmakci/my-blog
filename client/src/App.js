@@ -6,11 +6,10 @@ import Settings from "./pages/settings/Settings";
 import Write from "./pages/write/Write";
 import Login from "./pages/login/Login";
 import Single from "./pages/single/Single";
-
 import {
-  BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+  BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Footer from "./components/footer/Footer";
-import About from "./pages/about/About";
+import About from "./pages/about/About"; 
 import Contact from "./pages/contact/Contact";
 
 

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import "./post.css"
 import React from 'react';
-export default function Post() {
+export default function Post({post}) {
     return (
         <div className="post">
             <img className="postImg" src="https://images.pexels.com/photos/1144694/pexels-photo-1144694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
@@ -13,9 +13,9 @@ export default function Post() {
                     </Link>
                     
                 </div>
-            <Link to="/post/:postId" className="link">
+            <Link to="/post/" className="link">
                 <span className="postTitle">
-                Lorem, ipsum dolor sit amet
+                {post.title}
                 </span>
             </Link>
             <hr/>

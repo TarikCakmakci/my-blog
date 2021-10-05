@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                            <p>Copyright © 2021. Tarık Çakmakcı 
+                            <p>2021 © Tarık Çakmakcı 
                                 <a href="https://www.github.com/tarikcakmakci">
                                     <i className="footerIcon fab fa-github"></i>
                                 </a>

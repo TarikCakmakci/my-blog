@@ -1,7 +1,6 @@
 import "./topbar.css"
 import kai from '../../components/images/kai.jpg'
 import { Link } from "react-router-dom";
-import React from 'react';
 export default function Topbar() {
     const user = false;
     return (
@@ -22,10 +21,7 @@ export default function Topbar() {
                     <li className="topListItem">
                     
                      <Link to="/" className="link" > 
-                     <i class="homeIcon fas fa-home"></i>
-                     
-                     ANASAYFA
-                     
+                     <i class="homeIcon fas fa-home"></i>ANASAYFA
                      </Link>
                     </li>
                     <li className="topListItem">
@@ -47,8 +43,7 @@ export default function Topbar() {
                     </li>
 
                     <li className="topListItem">
-                    
-                         {user && "ÇIKIŞ YAP" && <i class="logoutIcon fas fa-sign-out-alt"></i>}
+                        {user && "ÇIKIŞ YAP"}
                     </li>
                 </ul>
             </div>
@@ -66,13 +61,15 @@ export default function Topbar() {
                         <li className="topListItem">
                         <Link to="/register" className="link">KAYIT</Link>
                         </li>
-                        <i className="topSearchIcon fas fa-search">
-                            <p> Search </p>
-                        </i>
                     </ul>
                 )
             }
-            
+            <div className="search">
+            <i className="topSearchIcon fas fa-search">
+           
+                <p>ARAMA YAP</p>
+            </i>
+            </div>
            
             </div>
         </div>
